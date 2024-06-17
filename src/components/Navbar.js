@@ -4,8 +4,9 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
 import {
+  AiOutlineFileText,
   AiOutlineHome,
-  AiOutlineUser,
+  AiOutlineProject,
 } from "react-icons/ai";
 
 function NavBar() {
@@ -57,7 +58,18 @@ function NavBar() {
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> About
+                <AiOutlineProject style={{ marginBottom: "2px" }} /> Portfolio
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="https://www.canva.com/design/DAGChVIz7t0/OaY_d6INUMFzrUh2Uy3q-A/edit"
+                onClick={() => updateExpanded(false)}
+                target="_blank"
+              >
+                <AiOutlineFileText style={{ marginBottom: "2px" }} /> CV
               </Nav.Link>
             </Nav.Item>
 

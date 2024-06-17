@@ -1,10 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import avatar from "../../Assets/avatar.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
+  AiOutlineFacebook,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -16,24 +16,29 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+            SOMETHING<span className="purple"> ABOUT </span> ME
             </h1>
             <p className="home-about-body">
-              I am fluent in classics like
+              Industrial engineer graduate
+              <br />
+              <br />
+              Knowledge of technologies such as 
               <i>
-                <b className="purple"> C++ and Python. </b>
+                <b className="purple"> ReactJs, JS, Laravel. </b>
               </i>
               <br />
               <br />
-              I debug more than I code.
-              <br />
-              <br />
-              My pronouns are <i><b>Jack of All Trades / Master of none</b></i>
+              Technical and <i><b>self-taught knowledge</b></i>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img
+                src={avatar}
+                alt="home pic"
+                className="img-fluid"
+                style={{ maxHeight: "450px" }}
+              />
             </Tilt>
           </Col>
         </Row>
@@ -46,7 +51,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/sukrutrahane"
+                  href="https://github.com/leobema"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -56,17 +61,17 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/sukrutrahane"
+                  href="https://www.facebook.com/lbertimadrid/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiOutlineTwitter />
+                  <AiOutlineFacebook />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/sukrutrahane/"
+                  href="https://www.linkedin.com/in/leonardoberti21/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -76,7 +81,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/sukkkrut"
+                  href="https://www.instagram.com/leonardoberti21/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

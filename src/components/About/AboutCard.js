@@ -1,35 +1,25 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
 
 function AboutCard() {
   return (
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Sukrut Rahane </span>
-            from <span className="purple"> Nashik, India.</span>
-            <br /> I am a Third Year student pursuing B.E.
-            in Artificial intelligence & Data Science from Pune University.
+          <p style={{ textAlign: "center" }}>
+            Hi, I am an <span className="purple">Industrial Engineer</span> passionate about technology
             <br />
-            Additionally, I am enthusiastic about Machine Learning.
+             and web development, from <span className="purple">Argentina</span> with experience
             <br />
+             in Quality Management Systems (QMS) ISO 9001. 
             <br />
-            Some of my hobbies are 
+            My focus is on creating comprehensive web solutions, 
+            <br />
+            combining strong knowledge in frontend development 
+            <br />
+            with React and backend development with Laravel Inertia.
+            <br />
           </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Partying
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> EDM
-            </li>
-          </ul>
-          
         </blockquote>
       </Card.Body>
     </Card>

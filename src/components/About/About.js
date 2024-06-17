@@ -3,7 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/sukrut_square.jpg";
+import avatar from "../../Assets/avatar.png";
+import Projects from "./Projects";
 import Tilt from "react-parallax-tilt";
 
 function About() {
@@ -11,6 +12,15 @@ function About() {
     <Container fluid className="about-section">
       <Particle />
       <Container>
+        <h1 className="project-heading">
+          Professional <strong className="purple">Skillset </strong>
+        </h1>
+        <Techstack />
+        <h1 className="project-heading">
+          My  <strong className="purple">Projects </strong>
+        </h1>
+        <Projects />
+
         <Row style={{ justifyContent: "center", padding: "10px" }}>
           <Col
             md={7}
@@ -21,7 +31,7 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">I'M</strong>
+              About <strong className="purple">me</strong>
             </h1>
             <Aboutcard />
           </Col>
@@ -39,15 +49,11 @@ function About() {
             className="about-img circular-image"
           >
             <Tilt>
-            <img src={laptopImg} alt="about" className="img-fluid rounded-circle" />
+            <img src={avatar} alt="about" className="img-fluid rounded-circle" />
             </Tilt>
           </Col>
         </Row>
-        <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
-        </h1>
-
-        <Techstack />
+        
 
       </Container>
     </Container>
