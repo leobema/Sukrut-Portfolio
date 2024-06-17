@@ -4,6 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
 import {
+  //AiOutlineCode,
   AiOutlineFileText,
   AiOutlineHome,
   AiOutlineProject,
@@ -72,6 +73,16 @@ function NavBar() {
                 <AiOutlineFileText style={{ marginBottom: "2px" }} /> CV
               </Nav.Link>
             </Nav.Item>
+
+           {/*  <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/service"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineCode style={{ marginBottom: "2px" }} /> Service
+              </Nav.Link>
+            </Nav.Item> */}
 
           </Nav>
         </Navbar.Collapse>

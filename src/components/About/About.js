@@ -13,14 +13,13 @@ function About() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
-        </h1>
-        <Techstack />
-        <h1 className="project-heading">
           My  <strong className="purple">Projects </strong>
         </h1>
         <Projects />
-
+        <h1 className="project-heading">
+          Professional <strong className="purple">Skillset </strong>
+        </h1>
+        <Techstack />
         <Row style={{ justifyContent: "center", padding: "10px" }}>
           <Col
             md={7}
