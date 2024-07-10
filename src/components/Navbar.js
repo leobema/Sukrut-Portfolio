@@ -66,7 +66,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="https://www.canva.com/design/DAGChVIz7t0/OaY_d6INUMFzrUh2Uy3q-A/edit"
+                to="https://www.canva.com/design/DAGKksA4OfI/pg37nuK7HfhUafzysCmLbg/edit"
                 onClick={() => updateExpanded(false)}
                 target="_blank"
               >
